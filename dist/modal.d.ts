@@ -108,7 +108,6 @@ export declare class ReactNativeModal extends React.Component<ModalProps, State>
     contentRef: any;
     panResponder: OrNull<PanResponderInstance>;
     didUpdateDimensionsEmitter: OrNull<EmitterSubscription>;
-    interactionHandle: OrNull<number>;
     constructor(props: ModalProps);
     static getDerivedStateFromProps(nextProps: Readonly<ModalProps>, state: State): {
         isVisible: boolean;
